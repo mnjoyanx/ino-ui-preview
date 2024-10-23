@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { Modal } from '../../src/index';
+import 'ino-ui-tv/dist/styles/styles.css';
+import { Modal } from 'ino-ui-tv';
 
 const App: React.FC = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
